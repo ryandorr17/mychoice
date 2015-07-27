@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+
+  root  'static/welcome'
+  get   'static/terms'
+
+
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
